@@ -3,7 +3,6 @@
 <br/>
 
 Fetch "suggestion" from command line.
-I don't know this command is what is useful for.
 
 <br/>
 <br/>

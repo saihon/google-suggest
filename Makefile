@@ -1,9 +1,7 @@
 NAME = google-suggest
 PREFIX = /usr/local/bin
 VERSION = $(shell git describe --tags --abbrev=0)
-LDFLAGS = -w -s \
-	-X 'main.Name=$(NAME)' \
-	-X 'main.Version=$(VERSION)'
+LDFLAGS ="-w -s -X 'main.Name=$(NAME)' -X 'main.Version=$(VERSION)'"
 
 .PHONY: $(NAME) test clean install uninstall
 
@@ -14,7 +12,7 @@ test:
 	go test -v ./...
 
 clean:
-	$(RM) $(NAME)
+	@$(RM) $(NAME)
 
 install:
 	cp -i $(NAME) $(PREFIX)
