@@ -3,7 +3,7 @@ builds:
     env:
       - GO111MODULE=on
     binary: google-suggest
-    main: ./cmd/google-suggest/
+    main: ./cmd/google-suggest/main.go
     goos:
       - windows
       - darwin
