@@ -2,7 +2,7 @@
 
 <br/>
 
-Fetch "suggestion" from command line.
+Fetch "suggestion" in command line.
 
 <br/>
 <br/>
