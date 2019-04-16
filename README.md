@@ -11,7 +11,7 @@ Fetch "suggestion" in command line.
 
 
 ```
-    $ google-suggest -l en golang python c++
+$ google-suggest -l en golang python c++
 [
   {
     "toplevel": {
